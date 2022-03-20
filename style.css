@@ -1,0 +1,47 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.head{
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 400px;
+}
+html,body{
+    height: 100%;
+}
+
+
+body{
+    background: #131419;
+place-items: center;
+}
+.clocks{
+    background: #131419;
+    height: 120px;
+    line-height: 120px;
+margin-top: 100px;
+margin-left: 200px;
+width: 70%;
+text-align: center;
+padding: 0 30px;
+box-shadow: -3px -3px 7px rgb(255, 255, 255),
+             3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.clocks .displays{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 5px;
+}
